@@ -5,8 +5,8 @@ A image gallery where you can search for images from a wide range of topics. Mad
 [Live Site Url](https://image-gallery-six-delta.vercel.app/)
 
 ## Screenshot
-
-[Desktop](./DesktopView.png)
+Desktop
+[](./DesktopView.png)
 
 ## Getting Started with Create React App
 
