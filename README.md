@@ -6,7 +6,7 @@ A image gallery where you can search for images from a wide range of topics. Mad
 
 ## Screenshot
 Desktop
-[](./DesktopView.png)
+![](./DesktopView.png)
 
 ## Getting Started with Create React App
 
