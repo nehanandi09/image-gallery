@@ -5,21 +5,23 @@ function ImageCard({ image }) {
   const tags = image.tags.split(",");
 
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg m-2">
       <img src={image.webformatURL} alt="iamge" className="w-full" />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">Photo by {image.user}</div>
+        <h1 className="font-bold text-xl mb-2 text-rose-600">
+          Photo by {image.user}
+        </h1>
         <ul>
           <li>
-            <strong>Views: </strong>
+            <strong className="text-teal-800">Views: </strong>
             {image.views}
           </li>
           <li>
-            <strong>Downloads: </strong>
+            <strong className="text-teal-800">Downloads: </strong>
             {image.downloads}
           </li>
           <li>
-            <strong>Likes: </strong>
+            <strong className="text-teal-800">Likes: </strong>
             {image.likes}
           </li>
         </ul>
@@ -28,7 +30,7 @@ function ImageCard({ image }) {
         {tags.map((tag, index) => (
           <span
             key={nanoid()}
-            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mt-2"
           >
             #{tag}
           </span>

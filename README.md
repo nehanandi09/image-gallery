@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Image Gallery
+
+A image gallery where you can search for images from a wide range of topics. Made using React, Hooks, and Tailwind.
+
+[Live Site Url](https://image-gallery-six-delta.vercel.app/)
+
+## Screenshot
+
+[Desktop](./DesktopView.png)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
